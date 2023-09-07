@@ -10,10 +10,12 @@ export default function Home() {
     <main className="flex flex-col items-center justify-center bg-light-gray">
       <section className="px-7 pt-16 lg:w-[550px]">
         <article className="flex flex-col gap-2 text-center text-dark-gray">
-          <h1 className="text-2xl font-extralight">
+          <h1 className="text-2xl font-extralight lg:text-4xl">
             Reliable, efficient delivery
           </h1>
-          <h2 className="text-2xl font-semibold">Powered by Technology</h2>
+          <h2 className="text-2xl font-semibold lg:text-4xl">
+            Powered by Technology
+          </h2>
           <p className="pt-3 text-body font-normal text-gray">
             Our Artificial Intelligence powered tools use millions of project
             data points to ensure that your project is successful
