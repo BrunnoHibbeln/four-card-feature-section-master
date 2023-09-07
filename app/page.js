@@ -7,14 +7,14 @@ import Card from './components/Card'
 
 export default function Home() {
   return (
-    <main className="bg-light-gray flex flex-col items-center justify-center">
+    <main className="flex flex-col items-center justify-center bg-light-gray">
       <section className="px-7 pt-16 lg:w-[550px]">
-        <article className="text-dark-gray flex flex-col gap-2 text-center">
+        <article className="flex flex-col gap-2 text-center text-dark-gray">
           <h1 className="text-2xl font-extralight">
             Reliable, efficient delivery
           </h1>
           <h2 className="text-2xl font-semibold">Powered by Technology</h2>
-          <p className="text-body text-gray pt-3 font-normal">
+          <p className="pt-3 text-body font-normal text-gray">
             Our Artificial Intelligence powered tools use millions of project
             data points to ensure that your project is successful
           </p>
